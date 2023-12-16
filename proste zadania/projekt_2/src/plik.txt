@@ -1,0 +1,3 @@
+0:AAAX  
+1:BBBB  
+1:BBBA 
