@@ -12,7 +12,8 @@ import java.util.UUID;
 @RequestMapping(value= "/api/v2")
 public class FamilyController {
 
-    FamilyRepository familyRepository; public FamilyController(FamilyRepository familyRepository) {this.familyRepository = familyRepository;}
+    FamilyRepository familyRepository;
+    public FamilyController(FamilyRepository familyRepository) {this.familyRepository = familyRepository;}
 
     List<Family> familyList = new ArrayList<>();
 
